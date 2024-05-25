@@ -1,0 +1,150 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+body{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:12px;
+	width:100%;
+	height:100vh;
+	overflow:hidden;
+}
+
+ul{
+	list-style:none;
+}
+
+.wrapper{}
+
+.left,
+.right{
+	position:absolute;
+	width:50%;
+	height:100%;
+	z-index:-1;}
+
+.left{
+	background:#b3b4af;
+	left:0%;
+	width:%0;}
+	
+.right{
+	background:#191921;
+	right:0%;
+	width:100%;
+}
+
+.nav ul{
+	display:flex;
+	align-items:center;
+	justtify-content:space-around;
+	height:80px;
+	padding:0 20px;}
+
+.nav ul li{
+	display:inline-block;
+	color:#fff;
+	text-transform:uppercase;
+	letter-spacing:3px;
+	font-size:8px;
+	font-weight:600;
+	padding:0 30px;
+}
+
+.nav .logo{ 
+	flex:1;
+	font-size:18px;
+	letter-spacing:0;}
+
+.nav .menu{
+	flex:1;
+	font-size:18px;}
+
+.nav .collection{flex:1;}
+
+.nav .explore{flex:4;}
+
+.nav .search{flex:3;}
+
+.nav .porfile{flex:0;}
+
+.nav .porfile .img{
+	background-image:url(img.jpg);
+	background-position:50%;
+	background-size:cover;
+	height:30px;
+	width:30px;
+	border-radius:50%;}
+
+.img-wrapper{
+	position:absolute;
+	bottom:0;
+	left:180px;}
+
+.img-wrapper .karina{
+	background-image:url(img.jpg);
+	background-size:cover;   
+	height: 473px;
+    width:0;}
+
+.info{
+	position:absolute;
+	bottom:0;
+	left:180px;
+	background:rgb(0,0,0, .8);
+	padding:0 10px;}
+
+.info ul li{
+	display:inline-block;
+	padding:20px 25px;
+	color:#fff;
+	text-transform:uppercase;
+	letter-spacing:3px;
+	font-size:8px;
+	font-weight:600;
+}
+
+.info i{font-size:18px;}
+
+.text{
+	position:absolute;
+	top:50%;
+	right:100px;
+	transform:translateY(-50%);}
+
+.text h1{
+	font-size:90px;
+	color:#fff;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	text-transform:uppercase;
+	}
+
+.text p{
+	font-size:20px;
+	color:#fff;
+	font-family:Georgia, "Times New Roman", Times, serif;}
+
+.name{
+	position:absolute;
+	top:41%;
+	left:-270px;
+	transform:translateY()-50%;
+	font-size:90px;
+	font-family:"Lucida Console", Monaco, monospace;
+	text-transform:uppercase;
+	color:transparent;
+	-webkit-text-stroke:2px #fff;}
+
+.bottomnav{
+	position:absolute;
+	bottom:100px;
+	right:100px;}
+	
+.bottomnav ul li{
+	color:#fff;
+	text-transform:uppercase;
+	letter-spacing:15px;
+	margin-top:20px;
+}
