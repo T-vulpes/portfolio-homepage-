@@ -26,12 +26,12 @@ ul{
 	z-index:-1;}
 
 .left{
-	background:#b3b4af;
+	background:#444748;
 	left:0%;
 	width:%0;}
 	
 .right{
-	background:#191921;
+	background:#4e2125;
 	right:0%;
 	width:100%;
 }
